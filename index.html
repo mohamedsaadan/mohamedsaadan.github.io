@@ -1,71 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohamed Saadan | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohamed Saadan — Oracle APEX & PL/SQL Developer</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta name="description" content="Oracle APEX & PL/SQL Developer — OCI Certified. EBS R12.2, BI Publisher. ERP & Cloud Solutions." />
 </head>
 <body>
-  <!-- Hero Section -->
-  <header class="hero">
-    <img src="assets/img/me.jpg" alt="Mohamed Saadan" class="hero-img">
-    <h1>Mohamed Saadan</h1>
-    <h3>Oracle APEX & PL/SQL Developer</h3>
-    <a href="cv.pdf" class="btn" download>Download CV</a>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="brand">Mohamed Saadan</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certs">Certifications</a>
+        <a href="#contact">Contact</a>
+        <a class="btn ghost" href="cv.pdf" download>Download CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <h1>Oracle APEX &amp; <span class="accent">PL/SQL</span> Developer</h1>
+        <p class="lead">
+          Oracle Certified (OCI, APEX) · EBS R12.2 &amp; BI Publisher · ERP &amp; Cloud Solutions
+        </p>
+
+        <ul class="bullets">
+          <li>Reduced HR steps by <b>70%</b> via APEX + BI Publisher.</li>
+          <li>Improved DB response time by <b>50%</b>.</li>
+          <li>Delivered <b>20+</b> solutions &amp; dashboards.</li>
+        </ul>
+
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn outline" href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <img class="avatar" src="assets/me.jpg" alt="Mohamed Saadan portrait" />
+      </div>
+    </div>
   </header>
 
-  <!-- About Section -->
-  <section class="about">
-    <h2>About Me</h2>
-    <p>
-      I build reliable Oracle APEX applications and robust PL/SQL backends, integrating with EBS and BI reporting.
-      I focus on automation and measurable outcomes — shorter HR cycles, faster queries, and cleaner dashboards.
-    </p>
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="muted max-600">
+        I build reliable Oracle APEX applications and robust PL/SQL backends, integrating with EBS and shipping clean BI reporting.
+        I focus on automation and measurable outcomes—shorter HR cycles, faster queries, and clearer dashboards.
+      </p>
+    </div>
   </section>
 
-  <!-- Projects Section -->
-  <section class="projects">
-    <h2>Featured Projects</h2>
-    <div class="card-container">
-      <div class="card">
-        <h3>HR Automation Portal</h3>
-        <p>Reduced HR steps by 70% via APEX + BI Publisher workflows.</p>
+  <!-- Projects -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+
+      <div class="cards">
+        <!-- Card 1 -->
+        <article class="card">
+          <div class="card-head">
+            <h3>HR Automation Portal</h3>
+            <div class="tags">
+              <span class="tag">APEX</span>
+              <span class="tag">PL/SQL</span>
+              <span class="tag">BI Publisher</span>
+            </div>
+          </div>
+          <p class="muted">
+            APEX + BI Publisher workflows with role-based access and notifications; reduced manual HR steps by 70%.
+          </p>
+          <div class="card-actions">
+            <a class="btn tiny outline" href="#" aria-disabled="true">Live Demo</a>
+            <a class="btn tiny ghost" href="#">Source</a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <div class="card-head">
+            <h3>SQL Performance Tuning</h3>
+            <div class="tags">
+              <span class="tag">SQL</span>
+              <span class="tag">PL/SQL</span>
+              <span class="tag">DB</span>
+            </div>
+          </div>
+          <p class="muted">
+            Analyzed execution plans, refactored queries and optimized indexes to achieve 50% faster response.
+          </p>
+          <div class="card-actions">
+            <a class="btn tiny outline" href="#" aria-disabled="true">Live Demo</a>
+            <a class="btn tiny ghost" href="#">Source</a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+          <div class="card-head">
+            <h3>EBS / SCM Inventory Tracker</h3>
+            <div class="tags">
+              <span class="tag">APEX</span>
+              <span class="tag">EBS R12.2</span>
+              <span class="tag">ERP</span>
+            </div>
+          </div>
+          <p class="muted">
+            Improved visibility and reduced tracking errors by 50% through APEX dashboards integrated with EBS.
+          </p>
+          <div class="card-actions">
+            <a class="btn tiny outline" href="#" aria-disabled="true">Live Demo</a>
+            <a class="btn tiny ghost" href="#">Source</a>
+          </div>
+        </article>
       </div>
-      <div class="card">
-        <h3>SQL Performance Tuning</h3>
-        <p>Optimized queries & indexes to achieve 50% faster DB response.</p>
+
+      <p class="tip">Tip: replace the disabled “Live Demo” links with your Oracle APEX public URLs.</p>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certs" class="section">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+      <ul class="checklist">
+        <li>Oracle Cloud Infrastructure (OCI) — <b>Certified</b></li>
+        <li>Oracle APEX — <b>Certified</b></li>
+        <li>EBS R12.2 &amp; BI Publisher Expertise</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="muted max-600">Open to Oracle APEX/PLSQL, EBS and ERP projects. The fastest way to reach me is by email or LinkedIn.</p>
+
+      <div class="icons">
+        <a class="icon" href="mailto:mohamed@yourmail.com" title="Email" aria-label="Email">
+          <!-- envelope -->
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
+        </a>
+        <a class="icon" href="https://www.linkedin.com/in/mohamed-a-saadan-dev" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+          <!-- LinkedIn -->
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8.5h4V23h-4V8.5zM8.5 8.5h3.8v2h.05c.53-1 1.84-2.05 3.78-2.05 4.04 0 4.79 2.66 4.79 6.12V23h-4v-6.6c0-1.58-.03-3.62-2.2-3.62-2.2 0-2.53 1.72-2.53 3.5V23h-4V8.5z"/></svg>
+        </a>
+        <a class="icon" href="https://github.com/mohamedsaadan" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+          <!-- GitHub -->
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.6-3.37-1.17-3.37-1.17-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.04 1.53 1.04.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.7.11 2.5.33 1.9-1.29 2.74-1.02 2.74-1.02.56 1.38.21 2.4.11 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.86 0 1.34-.01 2.42-.01 2.75 0 .26.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+        </a>
       </div>
-      <div class="card">
-        <h3>EBS/SCM Inventory Tracker</h3>
-        <p>Reduced tracking errors by 50% through APEX dashboards.</p>
+
+      <div class="center">
+        <a class="btn primary" href="cv.pdf" download>Download CV (PDF)</a>
       </div>
     </div>
   </section>
 
-  <!-- Certifications Section -->
-  <section class="certifications">
-    <h2>Certifications</h2>
-    <ul>
-      <li>Oracle Cloud Infrastructure (OCI)</li>
-      <li>Oracle APEX – Certified</li>
-      <li>EBS R12.2 & BI Publisher</li>
-    </ul>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact">
-    <h2>Contact</h2>
-    <div class="icons">
-      <a href="mailto:your-email@gmail.com"><i class="fas fa-envelope"></i></a>
-      <a href="https://linkedin.com/in/your-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/your-github" target="_blank"><i class="fab fa-github"></i></a>
+  <footer class="footer">
+    <div class="container small">
+      © <span id="y"></span> Mohamed Saadan · Egypt · Remote-friendly
     </div>
-  </section>
-
-  <footer>
-    <p>© 2025 Mohamed Saadan | All Rights Reserved</p>
   </footer>
+
+  <script>
+    // year
+    document.getElementById('y').textContent = new Date().getFullYear();
+    // smooth scroll (for older browsers)
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const id = a.getAttribute('href');
+        if(id.length>1){
+          e.preventDefault();
+          document.querySelector(id)?.scrollIntoView({behavior:'smooth'});
+        }
+      });
+    });
+  </script>
 </body>
 </html>
