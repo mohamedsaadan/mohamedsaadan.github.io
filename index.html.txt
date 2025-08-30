@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Saadan - Oracle APEX & PL/SQL Developer</title>
+</head>
+<body>
+  <h1>👋 Welcome to My Portfolio</h1>
+  <p>
+    Oracle APEX & PL/SQL Developer | Oracle Certified (OCI, APEX) | 
+    EBS R12.2 & BI Publisher | ERP & Cloud Solutions
+  </p>
+
+  <h2>🌟 Projects</h2>
+  <ul>
+    <li>HR Automation (APEX + BI Publisher) – Reduced HR steps by 70%</li>
+    <li>SQL Performance Tuning – Improved DB response by 50%</li>
+    <li>EBS/SCM Inventory Tracker – Reduced tracking errors by 50%</li>
+  </ul>
+
+  <h2>📫 Contact</h2>
+  <p>
+    <a href="https://www.linkedin.com/in/mohamedsaadan/">LinkedIn</a> | 
+    <a href="https://github.com/mohamedsaadan">GitHub</a>
+  </p>
+</body>
+</html>
