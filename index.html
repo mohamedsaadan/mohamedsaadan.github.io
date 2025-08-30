@@ -5,88 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mohamed Saadan | Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <nav>
-      <h1>Mohamed Saadan</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a class="btn" href="cv.pdf" target="_blank">Download CV</a></li>
-      </ul>
-    </nav>
+  <!-- Hero Section -->
+  <header class="hero">
+    <img src="assets/img/me.jpg" alt="Mohamed Saadan" class="hero-img">
+    <h1>Mohamed Saadan</h1>
+    <h3>Oracle APEX & PL/SQL Developer</h3>
+    <a href="cv.pdf" class="btn" download>Download CV</a>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-text">
-      <h2>Oracle APEX & PL/SQL Developer</h2>
-      <p>Oracle Certified (OCI, APEX) • EBS R12.2 & BI Publisher • ERP & Cloud Solutions</p>
-      <ul>
-        <li>✅ Reduced HR steps by 70% via APEX + BI Publisher</li>
-        <li>✅ Improved DB response time by 50%</li>
-        <li>✅ Delivered 20+ solutions & dashboards</li>
-      </ul>
-      <a href="#projects" class="btn">View Projects</a>
-    </div>
-    <div class="hero-img">
-      <img src="assets/img/me.jpg" alt="Mohamed Saadan">
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="about">
+  <!-- About Section -->
+  <section class="about">
     <h2>About Me</h2>
-    <p>I build reliable Oracle APEX applications and robust PL/SQL backends, integrating with EBS and shipping clean BI reporting. I focus on automation and measurable outcomes—shorter HR cycles, faster queries, and clearer dashboards.</p>
+    <p>
+      I build reliable Oracle APEX applications and robust PL/SQL backends, integrating with EBS and BI reporting.
+      I focus on automation and measurable outcomes — shorter HR cycles, faster queries, and cleaner dashboards.
+    </p>
   </section>
 
-  <!-- Projects -->
-  <section id="projects">
+  <!-- Projects Section -->
+  <section class="projects">
     <h2>Featured Projects</h2>
-    <div class="projects-grid">
+    <div class="card-container">
       <div class="card">
         <h3>HR Automation Portal</h3>
-        <p>Reduced manual HR steps by 70% via APEX + BI Publisher workflows.</p>
+        <p>Reduced HR steps by 70% via APEX + BI Publisher workflows.</p>
       </div>
       <div class="card">
         <h3>SQL Performance Tuning</h3>
-        <p>Optimized execution plans and indexes to achieve 50% faster DB response.</p>
+        <p>Optimized queries & indexes to achieve 50% faster DB response.</p>
       </div>
       <div class="card">
         <h3>EBS/SCM Inventory Tracker</h3>
-        <p>Reduced tracking errors by 50% through APEX dashboards integrated with EBS.</p>
+        <p>Reduced tracking errors by 50% through APEX dashboards.</p>
       </div>
     </div>
   </section>
 
-  <!-- Certifications -->
-  <section id="certifications">
+  <!-- Certifications Section -->
+  <section class="certifications">
     <h2>Certifications</h2>
     <ul>
-      <li>✅ Oracle Cloud Infrastructure (OCI)</li>
-      <li>✅ Oracle APEX</li>
-      <li>✅ EBS R12.2 & BI Publisher</li>
+      <li>Oracle Cloud Infrastructure (OCI)</li>
+      <li>Oracle APEX – Certified</li>
+      <li>EBS R12.2 & BI Publisher</li>
     </ul>
   </section>
 
-  <!-- Contact -->
-  <section id="contact">
+  <!-- Contact Section -->
+  <section class="contact">
     <h2>Contact</h2>
-    <p>Open to Oracle APEX/PLSQL, EBS and ERP projects</p>
-    <div class="socials">
-      <a href="mailto:yourmail@example.com" class="btn">Email</a>
-      <a href="https://linkedin.com/in/yourlinkedin" target="_blank" class="btn">LinkedIn</a>
-      <a href="https://github.com/mohamedsaadan" target="_blank" class="btn">GitHub</a>
+    <div class="icons">
+      <a href="mailto:your-email@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/your-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/your-github" target="_blank"><i class="fab fa-github"></i></a>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 Mohamed Saadan | All rights reserved</p>
+    <p>© 2025 Mohamed Saadan | All Rights Reserved</p>
   </footer>
 </body>
 </html>
